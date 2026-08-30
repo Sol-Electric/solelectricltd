@@ -227,3 +227,6 @@ h3 { font-size: 1.35rem; }
   .language-strip strong { font-size: .7rem; }
   .lang-btn { padding: 6px 9px; }
 }
+
+
+.hero-logo{ display: block; width: 100%; max-width: 420px; height: auto; object-fit: contain; margin: 0 auro 24px; }
