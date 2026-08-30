@@ -38,10 +38,10 @@ a { color: inherit; text-decoration: none; }
 }
 .brand { display: flex; align-items: center; gap: 12px; color: white; }
 .brand-mark {
-  width: 44px; height: 44px; border: 1px solid var(--gold);
-  display: grid; place-items: center; color: var(--gold);
-  font-weight: 700; letter-spacing: .08em;
+  width: 72px; height: 72px; object-fit: contain; border: none;
+  display: block;
 }
+.brand-logo {flex-shrink: 0;}
 .brand-name { font-size: 1.06rem; font-weight: 700; letter-spacing: .04em; }
 .brand-tag { font-size: .72rem; color: var(--gold-light); letter-spacing: .08em; text-transform: uppercase; }
 .nav { display: flex; align-items: center; gap: 22px; color: #fff; font-size: .92rem; }
